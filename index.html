@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecos Latinos</title>
+</head>
+
+<body>
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="figs/sua-logo2.png" alt="Logo del Sitio">
+            </a>
+            <p id="titulo">Ecos Latinos</p>
+        </div>
+
+        <!-- Navegación -->
+        <nav class="switch-container">
+            <span class="switch-label">Transiciones</span>
+            <label class="switch">
+                <input type="checkbox" id="transitionsToggle">
+                <span class="slider"></span>
+            </label>
+        </nav>
+    </header>
+
+    <main>
+        <h1>¡Bienvenido a nuestro sitio!</h1>
+        <h3>En este sitio descubrirás más sobre los pueblos precolombinos.</h3>
+        <p>Los pueblos precolombinos eran aquellos que vivían en América antes de la llegada de los españoles. Varias
+            culturas habitaron América precolombina. Los más notables fueron los aztecas, los mayas y los incas.</p>
+
+        <!-- Slideshow -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="figs/imagem1.webp" alt="Imagen 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="figs/imagem2.jpeg" alt="Imagen 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="figs/imagem3.webp" alt="Imagen 3">
+            </div>
+        </div>
+
+        <!-- Divisor de contenido -->
+        <br>
+        <div class="divider">
+            <h1>Contenido</h1>
+            <div class="line"></div>
+        </div>
+
+        <p>Explora nuestras otras páginas a través del menú a continuación para descubrir más sobre lo que ofrecemos.</p>
+
+        <!-- Enlaces de contenido -->
+        <div class="content">
+            <div class="content-container">
+                <a href="artigo1.html" class="content-block">
+                    <img src="figs/deuses_astecas.jpg" alt="Dioses aztecas">
+                    <h3>Los pueblos precolombinos</h3>
+                </a>
+                <a href="artigo2.html" class="content-block">
+                    <img src="figs/Quetzalcoatl_Ehecatl.jpg" alt="Mitos precolombinos">
+                    <h3>Religiones de los pueblos precolombinos</h3>
+                </a>
+                <a href="artigo3.html" class="content-block">
+                    <img src="figs/chinampa2.jpg" alt="Civilizaciones antiguas de las Américas">
+                    <h3>Otros pueblos</h3>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Botón de Volver Arriba -->
+    <button id="btnTopo" title="Volver arriba">↑</button>
+
+    <footer>
+        <p>&copy; 2024 Todos los derechos reservados.</p>
+        <p><a href="#">Sobre nosotros</a></p>
+        <button id="qrButton">
+            <img src="figs/qrcode.png" alt="QR Code" id="qrImage" style="width: 30px; height: 30px;">
+        </button>
+    </footer>
+
+    <div id="qrModal" class="modal">
+        <span id="closeBtn" class="close">&times;</span>
+        <img class="modal-content" id="modalQR">
+        <div id="caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
