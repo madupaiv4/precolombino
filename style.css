@@ -211,6 +211,22 @@ figure{
     border: 1px solid #ddd;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 576px){
+    .content-container {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        overflow-x: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+}
 .content-block {
     display: flex;
     flex-direction: column;
@@ -246,6 +262,15 @@ figure{
 .content-block h3 {
     margin: 10px 0;
     font-size: 18px;
+}
+
+.mayas-content a  {
+    text-decoration: none;
+}
+
+/* Alterando a cor do texto para cinza quando o mouse passar por cima */
+.mayas-content a:hover {
+    color: gray; /* Cor do texto ao passar o mouse */
 }
 
 

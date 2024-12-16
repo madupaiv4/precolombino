@@ -97,15 +97,6 @@ contentLinks.forEach(link => {
     });
 });
 
-// NAO AGUENTO MAIS ESSE TRABALHO
-
-
-
-
-
-
-
-
 // Obter os elementos do modal e do botão de imagem
 var modal = document.getElementById("qrModal");
 var btn = document.getElementById("qrButton");
@@ -131,3 +122,4 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
